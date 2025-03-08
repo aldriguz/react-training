@@ -3,6 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import MyApp from './components/MyApp'
+import Profile from './components/Profile'
+import AboutPage from './components/AboutPage'
+import ListElements from './components/ListElements'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,7 +33,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
 
-      <MyApp/>
+      <ListElements/>
     </>
   )
 }
