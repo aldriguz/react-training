@@ -6,6 +6,9 @@ import MyApp from './components/MyApp'
 import Profile from './components/Profile'
 import AboutPage from './components/AboutPage'
 import ListElements from './components/ListElements'
+import ClickableButton from './components/ClickableButton'
+import ClickableCounters from './components/ClickableCounters'
+import ClickableButtonsShared from './components/ClickableButtonsShared'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -33,7 +36,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
 
-      <ListElements/>
+      <ClickableButtonsShared/>
     </>
   )
 }
